@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Xapo.xcodeproj">
+      location = "self:/Users/hardik/Desktop/Xapo/GithubSuperStars.xcodeproj">
    </FileRef>
 </Workspace>

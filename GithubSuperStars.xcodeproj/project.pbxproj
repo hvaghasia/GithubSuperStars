@@ -7,38 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		560019F31EA738A30007039C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560019F21EA738A30007039C /* AppDelegate.swift */; };
-		560019F51EA738A30007039C /* ProjectsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560019F41EA738A30007039C /* ProjectsListViewController.swift */; };
-		560019F81EA738A30007039C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560019F61EA738A30007039C /* Main.storyboard */; };
-		560019FA1EA738A30007039C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560019F91EA738A30007039C /* Assets.xcassets */; };
-		560019FD1EA738A30007039C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560019FB1EA738A30007039C /* LaunchScreen.storyboard */; };
-		56001A051EA73F520007039C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A041EA73F520007039C /* NetworkManager.swift */; };
-		56001A071EA73F760007039C /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A061EA73F760007039C /* APIRequest.swift */; };
-		56001A091EA73F960007039C /* GetGitProjectsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A081EA73F960007039C /* GetGitProjectsRequest.swift */; };
-		56001A0B1EA73FC90007039C /* MainAPIOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A0A1EA73FC90007039C /* MainAPIOperation.swift */; };
-		56001A0D1EA7405E0007039C /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A0C1EA7405E0007039C /* NetworkOperation.swift */; };
-		56001A0F1EA7407C0007039C /* ParseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A0E1EA7407C0007039C /* ParseOperation.swift */; };
-		56001A111EA7408C0007039C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A101EA7408C0007039C /* Result.swift */; };
-		56001A131EA741210007039C /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A121EA741210007039C /* Project.swift */; };
-		56001A151EA7412D0007039C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A141EA7412D0007039C /* User.swift */; };
-		56001A171EA7415E0007039C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A161EA7415E0007039C /* Constants.swift */; };
-		56001A1B1EA7426D0007039C /* ProjectListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A1A1EA7426D0007039C /* ProjectListDataSource.swift */; };
-		56001A1E1EA742E40007039C /* ProjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A1D1EA742E40007039C /* ProjectViewModel.swift */; };
-		56001A221EA7434B0007039C /* ProjectListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A211EA7434B0007039C /* ProjectListCell.swift */; };
-		56001A251EA746840007039C /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A241EA746840007039C /* Reusable.swift */; };
-		56001A2A1EABCCB30007039C /* ProjectDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A291EABCCB30007039C /* ProjectDetailsViewController.swift */; };
-		56001A2C1EAC5CE70007039C /* View+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A2B1EAC5CE60007039C /* View+Helper.swift */; };
-		56001A2F1EAC75B60007039C /* GetReadMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A2E1EAC75B60007039C /* GetReadMe.swift */; };
-		56001A311EAC76A30007039C /* ReadMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A301EAC76A30007039C /* ReadMe.swift */; };
-		56001A331EAC96990007039C /* UIColor+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A321EAC96990007039C /* UIColor+Helper.swift */; };
-		56001A351EAC994E0007039C /* ProjectDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A341EAC994E0007039C /* ProjectDetailsViewModel.swift */; };
-		56001A371EAC9BA40007039C /* UIViewController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56001A361EAC9BA40007039C /* UIViewController+Helper.swift */; };
 		56FE945B1EADD91100C5DADB /* GithubSuperStarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE945A1EADD91100C5DADB /* GithubSuperStarsTests.swift */; };
 		56FE94631EADD94100C5DADB /* ProjectsDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94621EADD94100C5DADB /* ProjectsDataSourceTests.swift */; };
 		56FE94651EADD99F00C5DADB /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94641EADD99F00C5DADB /* Storyboard.swift */; };
 		56FE94671EADDC8D00C5DADB /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94661EADDC8D00C5DADB /* ModelTests.swift */; };
 		56FE94691EADE11300C5DADB /* WebserviceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94681EADE11300C5DADB /* WebserviceTests.swift */; };
 		56FE946B1EADEF6800C5DADB /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE946A1EADEF6800C5DADB /* ViewModelTests.swift */; };
+		56FE94701EADF68000C5DADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE946F1EADF68000C5DADB /* AppDelegate.swift */; };
+		56FE94741EADF6AC00C5DADB /* ProjectDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94711EADF6AC00C5DADB /* ProjectDetailsViewController.swift */; };
+		56FE94751EADF6AC00C5DADB /* ProjectsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94721EADF6AC00C5DADB /* ProjectsListViewController.swift */; };
+		56FE94761EADF6AC00C5DADB /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94731EADF6AC00C5DADB /* Reusable.swift */; };
+		56FE94781EADF6CA00C5DADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56FE94771EADF6CA00C5DADB /* Assets.xcassets */; };
+		56FE947D1EADF6D600C5DADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FE94791EADF6D600C5DADB /* LaunchScreen.storyboard */; };
+		56FE947E1EADF6D600C5DADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FE947B1EADF6D600C5DADB /* Main.storyboard */; };
+		56FE94801EADF6E100C5DADB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56FE947F1EADF6E100C5DADB /* Info.plist */; };
+		56FE94821EADF6ED00C5DADB /* ProjectListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94811EADF6ED00C5DADB /* ProjectListDataSource.swift */; };
+		56FE94881EADF6F700C5DADB /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94831EADF6F700C5DADB /* Project.swift */; };
+		56FE94891EADF6F700C5DADB /* ProjectDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94841EADF6F700C5DADB /* ProjectDetailsViewModel.swift */; };
+		56FE948A1EADF6F700C5DADB /* ProjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94851EADF6F700C5DADB /* ProjectViewModel.swift */; };
+		56FE948B1EADF6F700C5DADB /* ReadMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94861EADF6F700C5DADB /* ReadMe.swift */; };
+		56FE948C1EADF6F700C5DADB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94871EADF6F700C5DADB /* User.swift */; };
+		56FE94951EADF6FF00C5DADB /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE948D1EADF6FF00C5DADB /* APIRequest.swift */; };
+		56FE94961EADF6FF00C5DADB /* GetGitProjectsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE948E1EADF6FF00C5DADB /* GetGitProjectsRequest.swift */; };
+		56FE94971EADF6FF00C5DADB /* GetReadMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE948F1EADF6FF00C5DADB /* GetReadMe.swift */; };
+		56FE94981EADF6FF00C5DADB /* MainAPIOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94901EADF6FF00C5DADB /* MainAPIOperation.swift */; };
+		56FE94991EADF6FF00C5DADB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94911EADF6FF00C5DADB /* NetworkManager.swift */; };
+		56FE949A1EADF6FF00C5DADB /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94921EADF6FF00C5DADB /* NetworkOperation.swift */; };
+		56FE949B1EADF6FF00C5DADB /* ParseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94931EADF6FF00C5DADB /* ParseOperation.swift */; };
+		56FE949C1EADF6FF00C5DADB /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94941EADF6FF00C5DADB /* Result.swift */; };
+		56FE94A01EADF70800C5DADB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE949D1EADF70800C5DADB /* Constants.swift */; };
+		56FE94A11EADF70800C5DADB /* UIColor+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE949E1EADF70800C5DADB /* UIColor+Helper.swift */; };
+		56FE94A21EADF70800C5DADB /* UIViewController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE949F1EADF70800C5DADB /* UIViewController+Helper.swift */; };
+		56FE94A51EADF71200C5DADB /* ProjectListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94A31EADF71200C5DADB /* ProjectListCell.swift */; };
+		56FE94A61EADF71200C5DADB /* View+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE94A41EADF71200C5DADB /* View+Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,33 +54,6 @@
 
 /* Begin PBXFileReference section */
 		560019EF1EA738A30007039C /* GithubSuperStars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubSuperStars.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		560019F21EA738A30007039C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		560019F41EA738A30007039C /* ProjectsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsListViewController.swift; sourceTree = "<group>"; };
-		560019F71EA738A30007039C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		560019F91EA738A30007039C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		560019FC1EA738A30007039C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		560019FE1EA738A30007039C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56001A041EA73F520007039C /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = Network/NetworkManager.swift; sourceTree = "<group>"; };
-		56001A061EA73F760007039C /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIRequest.swift; path = Network/APIRequest.swift; sourceTree = "<group>"; };
-		56001A081EA73F960007039C /* GetGitProjectsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetGitProjectsRequest.swift; path = Network/GetGitProjectsRequest.swift; sourceTree = "<group>"; };
-		56001A0A1EA73FC90007039C /* MainAPIOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainAPIOperation.swift; path = Network/MainAPIOperation.swift; sourceTree = "<group>"; };
-		56001A0C1EA7405E0007039C /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkOperation.swift; path = Network/NetworkOperation.swift; sourceTree = "<group>"; };
-		56001A0E1EA7407C0007039C /* ParseOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParseOperation.swift; path = Network/ParseOperation.swift; sourceTree = "<group>"; };
-		56001A101EA7408C0007039C /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Network/Result.swift; sourceTree = "<group>"; };
-		56001A121EA741210007039C /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Project.swift; path = Model/Project.swift; sourceTree = "<group>"; };
-		56001A141EA7412D0007039C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Model/User.swift; sourceTree = "<group>"; };
-		56001A161EA7415E0007039C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Utility/Constants.swift; sourceTree = "<group>"; };
-		56001A1A1EA7426D0007039C /* ProjectListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectListDataSource.swift; path = DataSource/ProjectListDataSource.swift; sourceTree = "<group>"; };
-		56001A1D1EA742E40007039C /* ProjectViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectViewModel.swift; path = Model/ProjectViewModel.swift; sourceTree = "<group>"; };
-		56001A211EA7434B0007039C /* ProjectListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectListCell.swift; path = View/ProjectListCell.swift; sourceTree = "<group>"; };
-		56001A241EA746840007039C /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
-		56001A291EABCCB30007039C /* ProjectDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetailsViewController.swift; sourceTree = "<group>"; };
-		56001A2B1EAC5CE60007039C /* View+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "View+Helper.swift"; path = "View/View+Helper.swift"; sourceTree = "<group>"; };
-		56001A2E1EAC75B60007039C /* GetReadMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetReadMe.swift; path = Network/GetReadMe.swift; sourceTree = "<group>"; };
-		56001A301EAC76A30007039C /* ReadMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReadMe.swift; path = Model/ReadMe.swift; sourceTree = "<group>"; };
-		56001A321EAC96990007039C /* UIColor+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Helper.swift"; path = "Utility/UIColor+Helper.swift"; sourceTree = "<group>"; };
-		56001A341EAC994E0007039C /* ProjectDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectDetailsViewModel.swift; path = Model/ProjectDetailsViewModel.swift; sourceTree = "<group>"; };
-		56001A361EAC9BA40007039C /* UIViewController+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Helper.swift"; path = "Utility/UIViewController+Helper.swift"; sourceTree = "<group>"; };
 		56FE94581EADD91100C5DADB /* GithubSuperStarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubSuperStarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56FE945A1EADD91100C5DADB /* GithubSuperStarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubSuperStarsTests.swift; sourceTree = "<group>"; };
 		56FE945C1EADD91100C5DADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +62,33 @@
 		56FE94661EADDC8D00C5DADB /* ModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
 		56FE94681EADE11300C5DADB /* WebserviceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebserviceTests.swift; sourceTree = "<group>"; };
 		56FE946A1EADEF6800C5DADB /* ViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		56FE946F1EADF68000C5DADB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = GithubSuperStars/AppDelegate.swift; sourceTree = "<group>"; };
+		56FE94711EADF6AC00C5DADB /* ProjectDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectDetailsViewController.swift; path = GithubSuperStars/ProjectDetailsViewController.swift; sourceTree = "<group>"; };
+		56FE94721EADF6AC00C5DADB /* ProjectsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectsListViewController.swift; path = GithubSuperStars/ProjectsListViewController.swift; sourceTree = "<group>"; };
+		56FE94731EADF6AC00C5DADB /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reusable.swift; path = GithubSuperStars/Reusable.swift; sourceTree = "<group>"; };
+		56FE94771EADF6CA00C5DADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = GithubSuperStars/Assets.xcassets; sourceTree = "<group>"; };
+		56FE947A1EADF6D600C5DADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = GithubSuperStars/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56FE947C1EADF6D600C5DADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = GithubSuperStars/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56FE947F1EADF6E100C5DADB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GithubSuperStars/Info.plist; sourceTree = "<group>"; };
+		56FE94811EADF6ED00C5DADB /* ProjectListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectListDataSource.swift; path = GithubSuperStars/DataSource/ProjectListDataSource.swift; sourceTree = "<group>"; };
+		56FE94831EADF6F700C5DADB /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Project.swift; path = GithubSuperStars/Model/Project.swift; sourceTree = "<group>"; };
+		56FE94841EADF6F700C5DADB /* ProjectDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectDetailsViewModel.swift; path = GithubSuperStars/Model/ProjectDetailsViewModel.swift; sourceTree = "<group>"; };
+		56FE94851EADF6F700C5DADB /* ProjectViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectViewModel.swift; path = GithubSuperStars/Model/ProjectViewModel.swift; sourceTree = "<group>"; };
+		56FE94861EADF6F700C5DADB /* ReadMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReadMe.swift; path = GithubSuperStars/Model/ReadMe.swift; sourceTree = "<group>"; };
+		56FE94871EADF6F700C5DADB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = GithubSuperStars/Model/User.swift; sourceTree = "<group>"; };
+		56FE948D1EADF6FF00C5DADB /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIRequest.swift; path = GithubSuperStars/Network/APIRequest.swift; sourceTree = "<group>"; };
+		56FE948E1EADF6FF00C5DADB /* GetGitProjectsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetGitProjectsRequest.swift; path = GithubSuperStars/Network/GetGitProjectsRequest.swift; sourceTree = "<group>"; };
+		56FE948F1EADF6FF00C5DADB /* GetReadMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetReadMe.swift; path = GithubSuperStars/Network/GetReadMe.swift; sourceTree = "<group>"; };
+		56FE94901EADF6FF00C5DADB /* MainAPIOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainAPIOperation.swift; path = GithubSuperStars/Network/MainAPIOperation.swift; sourceTree = "<group>"; };
+		56FE94911EADF6FF00C5DADB /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = GithubSuperStars/Network/NetworkManager.swift; sourceTree = "<group>"; };
+		56FE94921EADF6FF00C5DADB /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkOperation.swift; path = GithubSuperStars/Network/NetworkOperation.swift; sourceTree = "<group>"; };
+		56FE94931EADF6FF00C5DADB /* ParseOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParseOperation.swift; path = GithubSuperStars/Network/ParseOperation.swift; sourceTree = "<group>"; };
+		56FE94941EADF6FF00C5DADB /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = GithubSuperStars/Network/Result.swift; sourceTree = "<group>"; };
+		56FE949D1EADF70800C5DADB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = GithubSuperStars/Utility/Constants.swift; sourceTree = "<group>"; };
+		56FE949E1EADF70800C5DADB /* UIColor+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Helper.swift"; path = "GithubSuperStars/Utility/UIColor+Helper.swift"; sourceTree = "<group>"; };
+		56FE949F1EADF70800C5DADB /* UIViewController+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Helper.swift"; path = "GithubSuperStars/Utility/UIViewController+Helper.swift"; sourceTree = "<group>"; };
+		56FE94A31EADF71200C5DADB /* ProjectListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectListCell.swift; path = GithubSuperStars/View/ProjectListCell.swift; sourceTree = "<group>"; };
+		56FE94A41EADF71200C5DADB /* View+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "View+Helper.swift"; path = "GithubSuperStars/View/View+Helper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +112,7 @@
 		560019E61EA738A30007039C = {
 			isa = PBXGroup;
 			children = (
-				560019F11EA738A30007039C /* GithubSuperStars */,
+				56FE946E1EADF67100C5DADB /* GithubSuperStars */,
 				56FE94591EADD91100C5DADB /* GithubSuperStarsTests */,
 				560019F01EA738A30007039C /* Products */,
 			);
@@ -126,105 +127,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		560019F11EA738A30007039C /* GithubSuperStars */ = {
-			isa = PBXGroup;
-			children = (
-				560019F21EA738A30007039C /* AppDelegate.swift */,
-				56FE94511EADD70800C5DADB /* ViewController */,
-				56FE94521EADD71200C5DADB /* Datasource */,
-				56001A231EA7438C0007039C /* View */,
-				56001A181EA7417D0007039C /* Network */,
-				56001A191EA741840007039C /* Data */,
-				56FE94531EADD72300C5DADB /* Utils */,
-				560019F61EA738A30007039C /* Main.storyboard */,
-				560019F91EA738A30007039C /* Assets.xcassets */,
-				560019FB1EA738A30007039C /* LaunchScreen.storyboard */,
-				560019FE1EA738A30007039C /* Info.plist */,
-			);
-			name = GithubSuperStars;
-			path = Xapo;
-			sourceTree = "<group>";
-		};
-		56001A181EA7417D0007039C /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				56001A041EA73F520007039C /* NetworkManager.swift */,
-				56001A061EA73F760007039C /* APIRequest.swift */,
-				56001A081EA73F960007039C /* GetGitProjectsRequest.swift */,
-				56001A2E1EAC75B60007039C /* GetReadMe.swift */,
-				56001A0A1EA73FC90007039C /* MainAPIOperation.swift */,
-				56001A0C1EA7405E0007039C /* NetworkOperation.swift */,
-				56001A0E1EA7407C0007039C /* ParseOperation.swift */,
-				56001A101EA7408C0007039C /* Result.swift */,
-			);
-			name = Network;
-			sourceTree = "<group>";
-		};
-		56001A191EA741840007039C /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				56001A1C1EA742CC0007039C /* Model */,
-			);
-			name = Data;
-			sourceTree = "<group>";
-		};
-		56001A1C1EA742CC0007039C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				56001A121EA741210007039C /* Project.swift */,
-				56001A141EA7412D0007039C /* User.swift */,
-				56001A301EAC76A30007039C /* ReadMe.swift */,
-				56FE94501EADD11400C5DADB /* ViewModel */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		56001A231EA7438C0007039C /* View */ = {
-			isa = PBXGroup;
-			children = (
-				56001A211EA7434B0007039C /* ProjectListCell.swift */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		56FE94501EADD11400C5DADB /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				56001A1D1EA742E40007039C /* ProjectViewModel.swift */,
-				56001A341EAC994E0007039C /* ProjectDetailsViewModel.swift */,
-			);
-			name = ViewModel;
-			sourceTree = "<group>";
-		};
-		56FE94511EADD70800C5DADB /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				560019F41EA738A30007039C /* ProjectsListViewController.swift */,
-				56001A291EABCCB30007039C /* ProjectDetailsViewController.swift */,
-			);
-			name = ViewController;
-			sourceTree = "<group>";
-		};
-		56FE94521EADD71200C5DADB /* Datasource */ = {
-			isa = PBXGroup;
-			children = (
-				56001A1A1EA7426D0007039C /* ProjectListDataSource.swift */,
-			);
-			name = Datasource;
-			sourceTree = "<group>";
-		};
-		56FE94531EADD72300C5DADB /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				56001A161EA7415E0007039C /* Constants.swift */,
-				56001A241EA746840007039C /* Reusable.swift */,
-				56001A2B1EAC5CE60007039C /* View+Helper.swift */,
-				56001A321EAC96990007039C /* UIColor+Helper.swift */,
-				56001A361EAC9BA40007039C /* UIViewController+Helper.swift */,
-			);
-			name = Utils;
-			sourceTree = "<group>";
-		};
 		56FE94591EADD91100C5DADB /* GithubSuperStarsTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,6 +139,120 @@
 				56FE945C1EADD91100C5DADB /* Info.plist */,
 			);
 			path = GithubSuperStarsTests;
+			sourceTree = "<group>";
+		};
+		56FE946E1EADF67100C5DADB /* GithubSuperStars */ = {
+			isa = PBXGroup;
+			children = (
+				56FE94AF1EADF7E700C5DADB /* AppDelegate */,
+				56FE94A71EADF72C00C5DADB /* ViewController */,
+				56FE94AB1EADF78300C5DADB /* Utility */,
+				56FE94A81EADF73900C5DADB /* Datasource */,
+				56FE94AC1EADF79200C5DADB /* Data */,
+				56FE94AA1EADF75A00C5DADB /* Network */,
+				56FE94A91EADF74700C5DADB /* View */,
+				56FE94B01EADF7F100C5DADB /* Resources */,
+			);
+			name = GithubSuperStars;
+			sourceTree = "<group>";
+		};
+		56FE94A71EADF72C00C5DADB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				56FE94711EADF6AC00C5DADB /* ProjectDetailsViewController.swift */,
+				56FE94721EADF6AC00C5DADB /* ProjectsListViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		56FE94A81EADF73900C5DADB /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				56FE94811EADF6ED00C5DADB /* ProjectListDataSource.swift */,
+			);
+			name = Datasource;
+			sourceTree = "<group>";
+		};
+		56FE94A91EADF74700C5DADB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56FE94A31EADF71200C5DADB /* ProjectListCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		56FE94AA1EADF75A00C5DADB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				56FE94911EADF6FF00C5DADB /* NetworkManager.swift */,
+				56FE948D1EADF6FF00C5DADB /* APIRequest.swift */,
+				56FE948F1EADF6FF00C5DADB /* GetReadMe.swift */,
+				56FE948E1EADF6FF00C5DADB /* GetGitProjectsRequest.swift */,
+				56FE94901EADF6FF00C5DADB /* MainAPIOperation.swift */,
+				56FE94921EADF6FF00C5DADB /* NetworkOperation.swift */,
+				56FE94931EADF6FF00C5DADB /* ParseOperation.swift */,
+				56FE94941EADF6FF00C5DADB /* Result.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		56FE94AB1EADF78300C5DADB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				56FE94731EADF6AC00C5DADB /* Reusable.swift */,
+				56FE949D1EADF70800C5DADB /* Constants.swift */,
+				56FE949E1EADF70800C5DADB /* UIColor+Helper.swift */,
+				56FE949F1EADF70800C5DADB /* UIViewController+Helper.swift */,
+				56FE94A41EADF71200C5DADB /* View+Helper.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		56FE94AC1EADF79200C5DADB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				56FE94AD1EADF7A000C5DADB /* Model */,
+				56FE94AE1EADF7A700C5DADB /* ViewModel */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		56FE94AD1EADF7A000C5DADB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56FE94831EADF6F700C5DADB /* Project.swift */,
+				56FE94871EADF6F700C5DADB /* User.swift */,
+				56FE94861EADF6F700C5DADB /* ReadMe.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		56FE94AE1EADF7A700C5DADB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				56FE94841EADF6F700C5DADB /* ProjectDetailsViewModel.swift */,
+				56FE94851EADF6F700C5DADB /* ProjectViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		56FE94AF1EADF7E700C5DADB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				56FE946F1EADF68000C5DADB /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		56FE94B01EADF7F100C5DADB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				56FE94791EADF6D600C5DADB /* LaunchScreen.storyboard */,
+				56FE947B1EADF6D600C5DADB /* Main.storyboard */,
+				56FE94771EADF6CA00C5DADB /* Assets.xcassets */,
+				56FE947F1EADF6E100C5DADB /* Info.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,9 +340,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				560019FD1EA738A30007039C /* LaunchScreen.storyboard in Resources */,
-				560019FA1EA738A30007039C /* Assets.xcassets in Resources */,
-				560019F81EA738A30007039C /* Main.storyboard in Resources */,
+				56FE94781EADF6CA00C5DADB /* Assets.xcassets in Resources */,
+				56FE947E1EADF6D600C5DADB /* Main.storyboard in Resources */,
+				56FE947D1EADF6D600C5DADB /* LaunchScreen.storyboard in Resources */,
+				56FE94801EADF6E100C5DADB /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,29 +361,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56001A251EA746840007039C /* Reusable.swift in Sources */,
-				56001A1E1EA742E40007039C /* ProjectViewModel.swift in Sources */,
-				56001A111EA7408C0007039C /* Result.swift in Sources */,
-				56001A371EAC9BA40007039C /* UIViewController+Helper.swift in Sources */,
-				56001A051EA73F520007039C /* NetworkManager.swift in Sources */,
-				56001A221EA7434B0007039C /* ProjectListCell.swift in Sources */,
-				560019F51EA738A30007039C /* ProjectsListViewController.swift in Sources */,
-				56001A131EA741210007039C /* Project.swift in Sources */,
-				56001A071EA73F760007039C /* APIRequest.swift in Sources */,
-				56001A2C1EAC5CE70007039C /* View+Helper.swift in Sources */,
-				56001A0F1EA7407C0007039C /* ParseOperation.swift in Sources */,
-				56001A091EA73F960007039C /* GetGitProjectsRequest.swift in Sources */,
-				560019F31EA738A30007039C /* AppDelegate.swift in Sources */,
-				56001A311EAC76A30007039C /* ReadMe.swift in Sources */,
-				56001A2F1EAC75B60007039C /* GetReadMe.swift in Sources */,
-				56001A0B1EA73FC90007039C /* MainAPIOperation.swift in Sources */,
-				56001A0D1EA7405E0007039C /* NetworkOperation.swift in Sources */,
-				56001A151EA7412D0007039C /* User.swift in Sources */,
-				56001A1B1EA7426D0007039C /* ProjectListDataSource.swift in Sources */,
-				56001A2A1EABCCB30007039C /* ProjectDetailsViewController.swift in Sources */,
-				56001A331EAC96990007039C /* UIColor+Helper.swift in Sources */,
-				56001A351EAC994E0007039C /* ProjectDetailsViewModel.swift in Sources */,
-				56001A171EA7415E0007039C /* Constants.swift in Sources */,
+				56FE94A21EADF70800C5DADB /* UIViewController+Helper.swift in Sources */,
+				56FE94991EADF6FF00C5DADB /* NetworkManager.swift in Sources */,
+				56FE94751EADF6AC00C5DADB /* ProjectsListViewController.swift in Sources */,
+				56FE94701EADF68000C5DADB /* AppDelegate.swift in Sources */,
+				56FE948A1EADF6F700C5DADB /* ProjectViewModel.swift in Sources */,
+				56FE94A51EADF71200C5DADB /* ProjectListCell.swift in Sources */,
+				56FE94821EADF6ED00C5DADB /* ProjectListDataSource.swift in Sources */,
+				56FE94A01EADF70800C5DADB /* Constants.swift in Sources */,
+				56FE94981EADF6FF00C5DADB /* MainAPIOperation.swift in Sources */,
+				56FE94741EADF6AC00C5DADB /* ProjectDetailsViewController.swift in Sources */,
+				56FE949C1EADF6FF00C5DADB /* Result.swift in Sources */,
+				56FE94951EADF6FF00C5DADB /* APIRequest.swift in Sources */,
+				56FE94761EADF6AC00C5DADB /* Reusable.swift in Sources */,
+				56FE94881EADF6F700C5DADB /* Project.swift in Sources */,
+				56FE94A11EADF70800C5DADB /* UIColor+Helper.swift in Sources */,
+				56FE949A1EADF6FF00C5DADB /* NetworkOperation.swift in Sources */,
+				56FE94961EADF6FF00C5DADB /* GetGitProjectsRequest.swift in Sources */,
+				56FE94891EADF6F700C5DADB /* ProjectDetailsViewModel.swift in Sources */,
+				56FE948B1EADF6F700C5DADB /* ReadMe.swift in Sources */,
+				56FE949B1EADF6FF00C5DADB /* ParseOperation.swift in Sources */,
+				56FE94971EADF6FF00C5DADB /* GetReadMe.swift in Sources */,
+				56FE94A61EADF71200C5DADB /* View+Helper.swift in Sources */,
+				56FE948C1EADF6F700C5DADB /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,20 +411,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		560019F61EA738A30007039C /* Main.storyboard */ = {
+		56FE94791EADF6D600C5DADB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				560019F71EA738A30007039C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		560019FB1EA738A30007039C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				560019FC1EA738A30007039C /* Base */,
+				56FE947A1EADF6D600C5DADB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		56FE947B1EADF6D600C5DADB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56FE947C1EADF6D600C5DADB /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -590,6 +607,7 @@
 				56FE94611EADD91200C5DADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
